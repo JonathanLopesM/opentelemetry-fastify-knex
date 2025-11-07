@@ -2,9 +2,8 @@ import knex from 'knex'
 
 export async function connect() {
     const db = knex({
-        client: 'pg',
-        connection: 'postgres://erickwendel:erick@localhost:5432/ewacademy',
-        searchPath: ['knex', 'public'],
+         client: 'pg',
+         connection: 'postgres://root:jonathan@localhost:5432/development',
     })
 
     await db.raw('SELECT 1 as result')

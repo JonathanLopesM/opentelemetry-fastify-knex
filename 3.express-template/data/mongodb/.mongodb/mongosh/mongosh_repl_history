@@ -1,0 +1,9 @@
+show dbs
+db.myCollection.insertOne({name:"Jonathan"})
+use admin
+show dbs           // lista os bancos
+db.myCollection.insertOne({name:"Jonathan"})
+db.myCollection.find()                        // busca documentos
+db.myCollection.insertOne({name:"Jonathan"})  // insere um documento
+use test           // troca para o banco test
+show dbs           // lista os bancos

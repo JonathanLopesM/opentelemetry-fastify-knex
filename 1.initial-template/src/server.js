@@ -1,3 +1,6 @@
+import { initializeTracing } from './tracing.js'
+await initializeTracing()
+
 import Fastify from 'fastify';
 import { connect, seedDb } from './db.js'
 const PORT = 8080;

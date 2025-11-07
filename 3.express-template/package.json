@@ -1,0 +1,24 @@
+{
+  "name": "3.express-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/instrumentation-http": "^0.207.0",
+    "@opentelemetry/instrumentation-mongodb": "^0.60.0",
+    "@opentelemetry/instrumentation-mongoose": "^0.54.0",
+    "@opentelemetry/resources": "^2.2.0",
+    "@opentelemetry/sdk-node": "^0.207.0",
+    "@opentelemetry/semantic-conventions": "^1.37.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2"
+  }
+}
